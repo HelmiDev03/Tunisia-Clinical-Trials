@@ -23,3 +23,7 @@ An interactive Next.js application that visualizes clinical trials conducted in 
 - SVG map: `@svg-maps/tunisia`
 
 
+## Preview
+
+![App Preview](screens/p1.png)
+
