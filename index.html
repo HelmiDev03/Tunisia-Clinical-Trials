@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Tunisia Map</title>
+    <script src="https://cdn.anychart.com/releases/8.12.1/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.12.1/js/anychart-choropleth.min.js"></script>
+    <script src="https://cdn.anychart.com/geodata/countries/tunisia/tunisia.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Interactive Map of Tunisia - 24 States</h1>
+        <div id="selected-state" class="selected-state">Click on a state to see its name</div>
+        <input type="button" value="Reset Colors" onclick="resetColors()" class="reset-btn"/>
+    </div>
+    <div id="container"></div>
+    <script src="js/map-script.js"></script>
+</body>
+</html>
